@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("images/World\ Map.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    color: white;
+    margin-top: 150px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+.row .centre{
+    color: black;
+}
+.row{
+    padding: 0 40px;
+}
+.row ul li,
+.row ul li a{
+    text-decoration: none;
+}
+.row ul li{
+    padding-top: 10px;
+    list-style-type: none;
+}
+input#search-btn{
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+input#city-input {
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+h2#city-name {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
